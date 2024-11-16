@@ -15,6 +15,10 @@
     src: url(midias/fontes/OpenSans-Bold.ttf);
 }
 
+:root{
+    color-scheme: only light;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -27,7 +31,7 @@ body{
 }
 
 img{
-    max-width: 80px;
+    max-width: 200px;
 }
 
 header{
@@ -48,7 +52,8 @@ main h1{
 }
 
 main p{
-    font-family: 'opensb';
+    color: #d8959d;
+    font-family:'opensb';
     padding: 10px;
 }
 
