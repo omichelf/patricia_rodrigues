@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: tan-pearl;
+    src: url(midias/fontes/tan-pearl.otf);
+}
+
+@font-face {
+    font-family: opens;
+    src: url(midias/fontes/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: opensb;
+    src: url(midias/fontes/OpenSans-Bold.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFB0B9;
+    text-align: center;
+}
+
+img{
+    max-width: 80px;
+}
+
+header{
+    padding: 25px;
+    color: white;
+}
+
+#paty{
+    padding: 5px;
+}
+
+main h1{
+    font-family: 'tan-pearl';
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #FFB0B9, #FFB0B9, rgba(0, 0, 0, 0));
+}
+
+main p{
+    font-family: 'opensb';
+    padding: 10px;
+}
+
+main{
+    background-color: antiquewhite;
+    max-width: 80vw;
+    position: relative;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+
+section a{
+    color: #FFB0B9;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+section a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #FFB0B9;
+}
+
