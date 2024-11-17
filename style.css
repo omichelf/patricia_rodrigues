@@ -83,5 +83,6 @@ section a:hover{
 iframe{
     max-width: 80vw;
     max-height: 45vh;
+    border-radius: 10px;
 }
 
