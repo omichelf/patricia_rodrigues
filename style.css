@@ -80,3 +80,8 @@ section a:hover{
     background-color: #FFB0B9;
 }
 
+iframe{
+    max-width: 80vw;
+    max-height: 45vh;
+}
+
