@@ -26,12 +26,13 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFB0B9;
+    background-color: #000000;
     text-align: center;
 }
 
 img{
-    max-width: 200px;
+    max-width: 250px;
+    margin: -50px;
 }
 
 header{
@@ -84,5 +85,10 @@ iframe{
     max-width: 80vw;
     max-height: 45vh;
     border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(102, 101, 101, 0.37);
+    background-color: #FFB0B9;
 }
 
+section{
+    padding-bottom: 30px;
+}
