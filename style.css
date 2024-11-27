@@ -93,6 +93,12 @@ section{
     padding-bottom: 30px;
 }
 
+footer{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
 footer a{
     color: white;
     text-decoration: none;
